@@ -25,7 +25,11 @@ body {
 .Flex {
     display: flex;
     justify-content: space-between;
+}
 
+.Flex2 {
+    display: flex;
+    align-items: center;
 
 }
 
@@ -103,6 +107,7 @@ main {
     display: flex;
     height: 75vh;
     background-image: url(../img/banner.jpg);
+    background-position: center;
     background-size: cover;
     color: #fff;
     flex-direction: column;
@@ -123,9 +128,9 @@ main h2 {
 /* sobre*/
 #sobre {
     padding: 50px 0px;
-
     background: url(../img/background.png);
     background-size: cover;
+    background-position: center;
 }
 
 #destaque-sobre {
@@ -134,25 +139,26 @@ main h2 {
 }
 
 #textsobre {
-    display: flex;
     color: #fff;
-    flex-direction: column;
-    justify-content: center;
     padding: 0px 10px 0px 10px;
-    gap: 10px; 
+}
 
+#textsobre h2 {
+    margin-bottom: 10px;
 }
 
 .Topicosobre {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 30px;
+
+    margin-top: 20px;
 
 }
-.Topicosobre p{
+
+.Topicosobre img {
+
+    margin-right: 15px;
 
 }
+
 
 
 /*Smartphone Landscape-----------------------------------------------------------------------------------------------*/
@@ -263,5 +269,21 @@ portrait------------------------------------------------------------------------
     nav ul li a:hover {
         color: #cc0000;
 
+    }
+
+    /*sobre*/
+
+    #sobre{
+        background-attachment: fixed;
+    }
+
+
+    #destaque-sobre {
+        display: inline;
+
+    }
+    #destaque-sobre img{
+        border-radius: 50%;
+        margin-right: 50px;
     }
 }
