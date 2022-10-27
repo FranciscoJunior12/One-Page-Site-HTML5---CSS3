@@ -32,7 +32,8 @@ body {
     align-items: center;
 
 }
-.Flex3{
+
+.Flex3 {
     display: flex;
     flex-direction: column;
 }
@@ -78,7 +79,7 @@ label {
     position: fixed;
     top: 5px;
     right: 15px;
-    color:rgba(0,0,0,0.5) ;
+    color: rgba(0, 0, 0, 0.5);
 
 }
 
@@ -166,20 +167,33 @@ main h2 {
     margin-right: 15px;
 
 }
+
 /*one page*/
-#onepage{
+#onepage {
     padding: 50px 10px;
 
 }
-#onepage h2{
+
+#onepage h2 {
     margin-bottom: 10px;
 }
-#onepage p{
+
+#onepage p {
     margin-bottom: 10px;
 }
-#video iframe{
+
+#video iframe {
     width: 340px;
     height: 191px;
+    border: 0;
+}
+
+
+#wireframe {
+
+
+    
+
 }
 
 /*Smartphone Landscape-----------------------------------------------------------------------------------------------*/
@@ -198,12 +212,12 @@ main h2 {
     }
 
     /*one page*/
-    #video{
+    #video {
         width: 560px;
         height: 315px;
     }
 
-    #video iframe{
+    #video iframe {
         width: 560px;
         height: 315px;
     }
@@ -233,7 +247,7 @@ portrait------------------------------------------------------------------------
     main h2 {
         font-size: 2em;
     }
-    
+
 
 }
 
@@ -306,7 +320,7 @@ portrait------------------------------------------------------------------------
 
     /*sobre*/
 
-    #sobre{
+    #sobre {
         background-attachment: fixed;
     }
 
@@ -315,13 +329,15 @@ portrait------------------------------------------------------------------------
         display: inline;
 
     }
-    #destaque-sobre img{
+
+    #destaque-sobre img {
         border-radius: 50%;
         margin-right: 50px;
     }
+
     /*one page*/
 
-    .Flex3{
+    .Flex3 {
         flex-direction: row;
         align-items: center;
     }
