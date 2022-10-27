@@ -38,6 +38,13 @@ body {
     flex-direction: column;
 }
 
+.Flex4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
 .Botao {
     text-decoration: none;
     color: #fff;
@@ -57,6 +64,41 @@ body {
     right: 10px;
     bottom: 10px;
 }
+
+/*Cartões*/
+.card {
+    margin-top: 25px;
+    width: 338px;
+    height: 520px;
+    background-color: #e8e8e8;
+    border: 1px solid #a1a1a1;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.card img {
+
+    border-radius: 25px 25px 0px 0px;
+
+}
+
+.card h3 {
+    margin-top: 15px;
+
+}
+
+.card p {
+    text-align: left;
+    color: #434343;
+    padding: 10px 30px 50px 30px;
+}
+
+.card a {
+
+    padding: 10px 100px;
+    border: 0;
+}
+
 
 
 /* Smartphone portrait-------------------------------------------------------------------------------------------------*/
@@ -223,6 +265,32 @@ main h2 {
     display: none;
 }
 
+
+/*Conteudo*/
+#conteudo {
+    padding: 50px 0px;
+}
+
+#conteudo h2 {
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+#todos {
+
+    margin-top: 50px;
+    text-align: center;
+}
+
+#todos a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 1.25em;
+}
+
+
+
 /*Smartphone Landscape-----------------------------------------------------------------------------------------------*/
 @media(min-width:576px) {
 
@@ -387,7 +455,7 @@ portrait------------------------------------------------------------------------
 
     #qrcode img {
         width: 225px;
-        height:225px;
+        height: 225px;
     }
 
 }
