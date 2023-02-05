@@ -45,6 +45,18 @@ body {
 
 }
 
+.flex5 {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.Flex6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
 .Botao {
     text-decoration: none;
     color: #fff;
@@ -99,6 +111,11 @@ body {
     border: 0;
 }
 
+address {
+    background: url(../img/background2.png);
+    background-size: cover;
+    background-position: center;
+}
 
 
 /* Smartphone portrait-------------------------------------------------------------------------------------------------*/
@@ -289,6 +306,43 @@ main h2 {
     font-size: 1.25em;
 }
 
+/* rodape*/
+
+address {
+    padding: 35px 10px 50px 10px;
+    background: url(../img/background2.png);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+address a {
+    text-decoration: none;
+    color: #fff;
+}
+
+address img {
+    padding-top: 15px;
+}
+
+#local {
+    display: none;
+}
+
+#googlemap {
+    display: none;
+}
+
+footer {
+    padding: 50px;
+    color: #fff;
+    background-color: #343538;
+    text-align: center;
+}
+
+#social {
+    margin-bottom: 25px;
+}
 
 
 /*Smartphone Landscape-----------------------------------------------------------------------------------------------*/
@@ -315,6 +369,18 @@ main h2 {
     #video iframe {
         width: 560px;
         height: 315px;
+    }
+
+    /* Rodape*/
+    .flex5 {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #social {
+
+        margin: 0;
     }
 
 }
@@ -458,4 +524,21 @@ portrait------------------------------------------------------------------------
         height: 225px;
     }
 
+
+    /*rodape*/
+    #local {
+        display: inline;
+    }
+
+    #iconemap {
+        display: none;
+    }
+
+    #googlemap {
+        display: inline;
+    }
+
+    .Flex6 {
+        flex-direction: row-reverse;
+    }
 }
